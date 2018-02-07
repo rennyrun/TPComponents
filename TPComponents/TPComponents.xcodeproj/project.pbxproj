@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45A92E1A202AE28E00E199EF /* TPComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A92E10202AE28E00E199EF /* TPComponents.framework */; };
-		45A92E1F202AE28E00E199EF /* TPComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A92E1E202AE28E00E199EF /* TPComponentsTests.swift */; };
 		45A92E21202AE28E00E199EF /* TPComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A92E13202AE28E00E199EF /* TPComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45A92E2B202AE33000E199EF /* TPBottomNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A92E2A202AE33000E199EF /* TPBottomNavigation.swift */; };
+		45A92E45202AEA2400E199EF /* TPComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A92E10202AE28E00E199EF /* TPComponents.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		45A92E1B202AE28E00E199EF /* PBXContainerItemProxy */ = {
+		45A92E46202AEA2400E199EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 45A92E07202AE28E00E199EF /* Project object */;
 			proxyType = 1;
@@ -27,10 +26,9 @@
 		45A92E10202AE28E00E199EF /* TPComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A92E13202AE28E00E199EF /* TPComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPComponents.h; sourceTree = "<group>"; };
 		45A92E14202AE28E00E199EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45A92E19202AE28E00E199EF /* TPComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		45A92E1E202AE28E00E199EF /* TPComponentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPComponentsTests.swift; sourceTree = "<group>"; };
-		45A92E20202AE28E00E199EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45A92E2A202AE33000E199EF /* TPBottomNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPBottomNavigation.swift; sourceTree = "<group>"; };
+		45A92E40202AEA2400E199EF /* TPComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A92E44202AEA2400E199EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,11 +39,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45A92E16202AE28E00E199EF /* Frameworks */ = {
+		45A92E3D202AEA2400E199EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45A92E1A202AE28E00E199EF /* TPComponents.framework in Frameworks */,
+				45A92E45202AEA2400E199EF /* TPComponents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				45A92E12202AE28E00E199EF /* TPComponents */,
-				45A92E1D202AE28E00E199EF /* TPComponentsTests */,
+				45A92E41202AEA2400E199EF /* TPComponentsTests */,
 				45A92E11202AE28E00E199EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,7 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				45A92E10202AE28E00E199EF /* TPComponents.framework */,
-				45A92E19202AE28E00E199EF /* TPComponentsTests.xctest */,
+				45A92E40202AEA2400E199EF /* TPComponentsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,11 +78,10 @@
 			path = TPComponents;
 			sourceTree = "<group>";
 		};
-		45A92E1D202AE28E00E199EF /* TPComponentsTests */ = {
+		45A92E41202AEA2400E199EF /* TPComponentsTests */ = {
 			isa = PBXGroup;
 			children = (
-				45A92E1E202AE28E00E199EF /* TPComponentsTests.swift */,
-				45A92E20202AE28E00E199EF /* Info.plist */,
+				45A92E44202AEA2400E199EF /* Info.plist */,
 			);
 			path = TPComponentsTests;
 			sourceTree = "<group>";
@@ -121,22 +118,22 @@
 			productReference = 45A92E10202AE28E00E199EF /* TPComponents.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		45A92E18202AE28E00E199EF /* TPComponentsTests */ = {
+		45A92E3F202AEA2400E199EF /* TPComponentsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45A92E27202AE28E00E199EF /* Build configuration list for PBXNativeTarget "TPComponentsTests" */;
+			buildConfigurationList = 45A92E48202AEA2400E199EF /* Build configuration list for PBXNativeTarget "TPComponentsTests" */;
 			buildPhases = (
-				45A92E15202AE28E00E199EF /* Sources */,
-				45A92E16202AE28E00E199EF /* Frameworks */,
-				45A92E17202AE28E00E199EF /* Resources */,
+				45A92E3C202AEA2400E199EF /* Sources */,
+				45A92E3D202AEA2400E199EF /* Frameworks */,
+				45A92E3E202AEA2400E199EF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				45A92E1C202AE28E00E199EF /* PBXTargetDependency */,
+				45A92E47202AEA2400E199EF /* PBXTargetDependency */,
 			);
 			name = TPComponentsTests;
 			productName = TPComponentsTests;
-			productReference = 45A92E19202AE28E00E199EF /* TPComponentsTests.xctest */;
+			productReference = 45A92E40202AEA2400E199EF /* TPComponentsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -154,7 +151,7 @@
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
-					45A92E18202AE28E00E199EF = {
+					45A92E3F202AEA2400E199EF = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -173,7 +170,7 @@
 			projectRoot = "";
 			targets = (
 				45A92E0F202AE28E00E199EF /* TPComponents */,
-				45A92E18202AE28E00E199EF /* TPComponentsTests */,
+				45A92E3F202AEA2400E199EF /* TPComponentsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -186,7 +183,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45A92E17202AE28E00E199EF /* Resources */ = {
+		45A92E3E202AEA2400E199EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,21 +201,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45A92E15202AE28E00E199EF /* Sources */ = {
+		45A92E3C202AEA2400E199EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45A92E1F202AE28E00E199EF /* TPComponentsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		45A92E1C202AE28E00E199EF /* PBXTargetDependency */ = {
+		45A92E47202AEA2400E199EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 45A92E0F202AE28E00E199EF /* TPComponents */;
-			targetProxy = 45A92E1B202AE28E00E199EF /* PBXContainerItemProxy */;
+			targetProxy = 45A92E46202AEA2400E199EF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -379,10 +375,9 @@
 			};
 			name = Release;
 		};
-		45A92E28202AE28E00E199EF /* Debug */ = {
+		45A92E49202AEA2400E199EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TPComponentsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -393,10 +388,9 @@
 			};
 			name = Debug;
 		};
-		45A92E29202AE28E00E199EF /* Release */ = {
+		45A92E4A202AEA2400E199EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TPComponentsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -428,11 +422,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45A92E27202AE28E00E199EF /* Build configuration list for PBXNativeTarget "TPComponentsTests" */ = {
+		45A92E48202AEA2400E199EF /* Build configuration list for PBXNativeTarget "TPComponentsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				45A92E28202AE28E00E199EF /* Debug */,
-				45A92E29202AE28E00E199EF /* Release */,
+				45A92E49202AEA2400E199EF /* Debug */,
+				45A92E4A202AEA2400E199EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
